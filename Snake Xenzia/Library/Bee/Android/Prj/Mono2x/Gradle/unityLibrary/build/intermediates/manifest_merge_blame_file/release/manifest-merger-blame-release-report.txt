@@ -1,0 +1,130 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="22"
+7-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="34" />
+8-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+9
+10    <uses-feature android:glEsVersion="0x00030000" />
+10-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:3-52
+10-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-49
+11    <uses-feature
+11-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-91
+12        android:name="android.hardware.vulkan.version"
+12-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:17-63
+13        android:required="false" />
+13-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:64-88
+14    <uses-feature
+14-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-88
+15        android:name="android.hardware.touchscreen"
+15-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:17-60
+16        android:required="false" />
+16-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:61-85
+17    <uses-feature
+17-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-99
+18        android:name="android.hardware.touchscreen.multitouch"
+18-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:17-71
+19        android:required="false" />
+19-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:72-96
+20    <uses-feature
+20-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-108
+21        android:name="android.hardware.touchscreen.multitouch.distinct"
+21-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-80
+22        android:required="false" />
+22-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:81-105
+23
+24    <application android:extractNativeLibs="true" >
+24-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-19:17
+24-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+25        <activity
+25-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-13:16
+26            android:name="com.unity3d.player.UnityPlayerActivity"
+26-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+27            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+27-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:188-369
+28            android:exported="true"
+28-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:440-463
+29            android:hardwareAccelerated="false"
+29-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:404-439
+30            android:launchMode="singleTask"
+30-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:156-187
+31            android:resizeableActivity="true"
+31-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:370-403
+32            android:screenOrientation="reverseLandscape"
+32-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-155
+33            android:theme="@style/UnityThemeSelector" >
+33-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+34            <intent-filter>
+34-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+35-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+37-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+38            </intent-filter>
+39
+40            <meta-data
+40-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+41                android:name="unityplayer.UnityActivity"
+41-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+42                android:value="true" />
+42-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+43            <meta-data
+43-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-130
+44                android:name="WindowManagerPreference:FreeformWindowSize"
+44-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-75
+45                android:value="@string/FreeformWindowSize_maximize" />
+45-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:76-127
+46            <meta-data
+46-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:7-145
+47                android:name="WindowManagerPreference:FreeformWindowOrientation"
+47-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:18-82
+48                android:value="@string/FreeformWindowOrientation_landscape" />
+48-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:83-142
+49            <meta-data
+49-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:7-78
+50                android:name="android.notch_support"
+50-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:18-54
+51                android:value="true" />
+51-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:55-75
+52        </activity>
+53
+54        <meta-data
+54-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-69
+55            android:name="unity.splash-mode"
+55-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-48
+56            android:value="0" />
+56-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:49-66
+57        <meta-data
+57-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-74
+58            android:name="unity.splash-enable"
+58-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-50
+59            android:value="True" />
+59-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:51-71
+60        <meta-data
+60-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-78
+61            android:name="unity.launch-fullscreen"
+61-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-54
+62            android:value="True" />
+62-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:55-75
+63        <meta-data
+63-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-81
+64            android:name="notch.config"
+64-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-43
+65            android:value="portrait|landscape" />
+65-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:44-78
+66        <meta-data
+66-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-84
+67            android:name="unity.auto-report-fully-drawn"
+67-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-60
+68            android:value="true" />
+68-->C:\Users\RanaM\Snake Xenzia\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:61-81
+69    </application>
+70
+71</manifest>
